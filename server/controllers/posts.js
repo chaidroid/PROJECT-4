@@ -18,7 +18,7 @@ export const createPost = async (req, res) => {
       comments: [],
     });
     await newPost.save();
-
+//hi
     const post = await Post.find();
     res.status(201).json(post).sort({_id:-1});
   } catch (err) {
