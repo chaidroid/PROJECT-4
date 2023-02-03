@@ -36,7 +36,7 @@ const PostWidget = ({
 
   const patchLike = async () => {
     const response = await fetch(
-      `https://project-4-eta.vercel.app/posts/${postId}/like`,
+      `https://openchat-yhfr.onrender.com/posts/${postId}/like`,
       {
         method: "PATCH",
         headers: {
@@ -67,7 +67,7 @@ const PostWidget = ({
           height="auto"
           alt="post"
           style={{ borderRadius: "0.75rem", marginTop: "0.75rem" }}
-          src={`https://project-4-eta.vercel.app/assets/${picturePath}`}
+          src={`https://openchat-yhfr.onrender.com/assets/${picturePath}`}
         />
       )}
       <FlexBetween mt="0.25rem">

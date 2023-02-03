@@ -8,7 +8,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`https://project-4-eta.vercel.app/assets/${image}`}
+        src={`https://openchat-yhfr.onrender.com/assets/${image}`}
       />
     </Box>
   );

@@ -23,7 +23,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-      `https://project-4-eta.vercel.app/users/${_id}/${friendId}`,
+      `https://openchat-yhfr.onrender.com/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {
